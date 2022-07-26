@@ -1,4 +1,4 @@
-package phase1.mphasis;
+package phase1.java;
 
 
 //Calculate the overall performance obtained for all the 4 students and for all the 4 subjects
@@ -7,13 +7,16 @@ import java.util.Scanner;
 public class StudentPerformance {
 	public static void main(String[] args)
 	{
-//		String name;
+		String name;
 		int age, sub1, sub2, sub3, sub4;
 //		char section, gender;
 		double total, percentage;
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("Enter the Student based details: ");
+		System.out.println("Input number of students:");
+		int n = Integer.parseInt(sc.nextLine().trim());
+		name = sc.next();
 		System.out.println("Enter the Age of the Student: ");
 		age = sc.nextInt();
 		System.out.println("Enter the Marks for Student for the 4 subjects: ");

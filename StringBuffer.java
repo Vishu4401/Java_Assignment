@@ -1,4 +1,4 @@
-package phase1.mphasis;
+package phase1.java;
 
 public class StringBuffer {
 	public static void main(String args[]){  

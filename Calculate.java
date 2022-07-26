@@ -1,4 +1,4 @@
-package phase1.mphasis;
+package phase1.java;
 
 public class Calculate {
 	static int add(int a, int b)

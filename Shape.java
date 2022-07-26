@@ -1,4 +1,4 @@
-package phase1.mphasis;
+package phase1.java;
 
 public class Shape {
 	int r = 40, s = 25, l = 20, b = 15;
