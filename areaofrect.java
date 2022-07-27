@@ -13,3 +13,5 @@ public class areaofrect {
 		System.out.println("Area of Rectangle: " +a.area);
 	}
 }
+
+

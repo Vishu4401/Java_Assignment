@@ -11,9 +11,8 @@ public class StudentPerformance {
 		int age, sub1, sub2, sub3, sub4;
 //		char section, gender;
 		double total, percentage;
-		Scanner sc = new Scanner(System.in);
-		
 		System.out.println("Enter the Student based details: ");
+		Scanner sc = new Scanner(System.in);
 		System.out.println("Input number of students:");
 		int n = Integer.parseInt(sc.nextLine().trim());
 		name = sc.next();

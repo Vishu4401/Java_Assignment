@@ -52,14 +52,13 @@ public class StringBuffer {
 		
 	}
 
-	private void insert(int i, String string) {
+	private void append(String string) {
 		// TODO Auto-generated method stub
 		
 	}
 
-	private void append(String string) {
+	private void insert(int i, String string) {
 		// TODO Auto-generated method stub
 		
-	}  
-
+	}
 }
