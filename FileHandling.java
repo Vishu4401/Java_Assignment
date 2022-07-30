@@ -15,7 +15,7 @@ public class FileHandling {
 	String data1 = sc.nextLine();
 	
 	try {
-		FileWriter output = new FileWriter("C:\\Users\\Vishwa\\Desktop\\Mphasis\\Simplilearn Java Technology\\File.txt");
+		FileWriter output = new FileWriter("C:\\Users\\Vishwa\\Desktop\\File.txt");
 		
 		System.out.println(data);
 		System.out.println("Initially no data is being written so the contents are not displayed");
